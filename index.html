@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home - Películas y Series</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                padding: 15px;
+                text-align: center;
+            }
+            nav {
+                text-align: center;
+            }
+            nav a {
+                margin: 0 10px;
+                text-decoration: none;
+                color: #007BFF;
+            }
+            .section {
+                padding: 20px;
+            }
+            .section h2 {
+                margin-bottom: 10px;
+            }
+            .peliculas, .actores, .festivales, .series, .lo-mas-visto {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+            .item {
+                border: 1px solid #ccc;
+                padding: 10px;
+            }
+            .festivales {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+            img {
+                max-width: 200px;  
+                max-height: 300px; 
+                width: auto;       
+                height: auto;      
+            }
+            footer {
+                background-color: #ccc;
+                color: black;
+                padding: 15px;
+                text-align: center;
+            }
+            footer a {
+                color: black;
+                text-decoration: none;
+                margin: 0 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="baixa.png" alt="Logo">
+        </header>
+
+        <nav>
+            <a href="pagina1.html">Link 1</a>
+            <a href="pagina2.html">Link 2</a>
+            <a href="pagina3.html">Link 3</a>
+        </nav>
+
+        <!-- Sección de Películas -->
+        <h2>Películas</h2>
+        <section class="section peliculas">
+            <div class="item">
+                <img src="Imagenes de Pelicuas/A10tF8xUYGL._AC_UF894,1000_QL80_.jpg" alt="Película 1">
+                <h3>Spiderman 3</h3>
+                <p>Lansamiento: 4 de maig del 2007</p>
+            </div>
+            <div class="item">
+                <img src="Imagenes de Pelicuas/baixa.jpeg" alt="Película 2">
+                <h3>Spider-Man: creuant el Multivers</h3>
+                <p>Lansamiento: 2 de juny del 2023</p>
+            </div>
+            <div class="item">
+                <img src="Imagenes de Pelicuas/images.jpeg" alt="Película 3">
+                <h3>Venom</h3>
+                <p>Lansamiento: 25 de octubre del 2024</p>
+            </div>
+            <div class="item">
+                <img src="Imagenes de Pelicuas/E32xkR0XIAELYOe.jpeg" alt="Película 4">
+                <h3>Evangelion: 3.0+1.0 Thrice Upon a Time</h3>
+                <p>Lansamiento: 8 de març del 2021</p>
+            </div>
+            <div class="item">
+                <img src="Imagenes de Pelicuas/3315450.webp" alt="Película 5">
+                <h3>Jumanji</h3>
+                <p>Lansamiento: 20 de desembre del 2017</p>
+            </div>
+            <div class="item">
+                <img src="Imagenes de Pelicuas/61VX0X7EGDL._AC_UF894,1000_QL80_.jpg" alt="Película 6">
+                <h3>Space jam</h3>
+                <p>Lansamiento: 3 de febrer del 1997</p>
+            </div>
+        </section>
+
+        <!-- Sección de Actores -->
+        <h2>Actores</h2>
+        <section class="section actores">
+            <div class="item actor">
+                <img src="Imagenes de actores/baixa.webp">
+                <p>Película: Spiderman 3</p>
+                <p>Valoración: 9,5</p>
+            </div>
+            <div class="item actor">
+                <img src="Imagenes de actores/baixa (1).webp">
+                <p>Película: Space jam</p>
+                <p>Valoración: 9,5</p>
+            </div>
+            <div class="item actor">
+                <img src="Imagenes de actores/baixa (2).webp">
+                <p>Película: Venom</p>
+                <p>Valoración: 9,5</p>
+            </div>
+            <div class="item actor">
+                <img src="Imagenes de actores/baixa (3).webp">
+                <p>Película: Jumanji</p>
+                <p>Valoración: 9,5</p>
+            </div>
+            <div class="item actor">
+                <img src="Imagenes de actores/baixa (4).webp">
+                <p>Película: Spiderman 3</p>
+                <p>Valoración: 9,5</p>
+            </div>
+            <div class="item actor">
+                <img src="Imagenes de actores/baixa (5).webp">
+                <p>Película: Jumanji</p>
+                <p>Valoración: 9,5</p>
+            </div>
+        </section>
+
+        <!-- Sección de Festivales -->
+        <h2>Festivales</h2>
+        <section class="section festivales">
+            <div class="item">
+                <img src="Imagenes de festivales/images.jpeg">
+                <h3>Serielizados Fest 2024</h3>
+                <p> Duracion: 14 al 23 de octubre de 2024</p>
+            </div>
+            <div class="item">
+                <img src="Imagenes de festivales/mymetastories-2023.jpg">
+                <h3>MyMetaStories</h3>
+                <p>Duracion: 6 al 29 de octubre de 2023</p>
+            </div>
+        </section>
+
+        <!-- Sección de Series -->
+        <h2>Series</h2>
+        <section class="section series">
+            <div class="item">
+                <img src="imagenes de Series/peaky-blinders-poster-66e1709d99742.avif" alt="Serie 1">
+                <h3>Peaky Blinders</h3>
+                <p>Lansamiento: 12 de septiembre de 2013</p>
+            </div>
+            <div class="item">
+                <img src="imagenes de Series/baixa.jpeg" alt="Serie 2">
+                <h3> Un Show Más</h3>
+                <p>Lansamiento: 7 de septiembre de 2010</p>
+            </div>
+            <div class="item">
+                <img src="imagenes de Series/Sangre_de_Zeus_Serie_de_TV-912217840-large.jpg" alt="Serie 3">
+                <h3> Sangre de Zeus</h3>
+                <p>Lansamiento: 27 de octubre de 2020</p>
+            </div>
+            <div class="item">
+                <img src="imagenes de Series/baixa (1).jpeg" alt="Serie 4">
+                <h3>Jujutsu Kaisen</h3>
+                <p>Lansamiento: 	5 de marzo de 2018</p>
+            </div>
+            <div class="item">
+                <img src="imagenes de Series/baixa (2).jpeg" alt="Serie 5">
+                <h3>Ben 10</h3>
+                <p>Lansamiento: 27 de diciembre de 2005</p>
+            </div>
+            <div class="item">
+                <img src="imagenes de Series/y9d3trMAczZWFqYvGSW6V695vf3.jpg" alt="Serie 6">
+                <h3>Beckham</h3>
+                <p>Lansamiento: 4 de octubre de 2023</p>
+            </div>
+        </section>
+
+        <!-- Sección de Lo Más Visto -->
+        <h2>Lo Más Visto</h2>
+        <section class="section lo-mas-visto">
+            <div>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>8</button>
+                <button>9</button>
+            </div>
+        </section>
+
+        <!-- Pie de Página -->
+        <footer>
+            <p>Dirección: Calle Falsa 123, Ciudad Ficticia, País</p>
+            <p>
+                <a href="https://www.facebook.com">Facebook</a> 
+                <a href="https://www.twitter.com">Twitter</a> 
+                <a href="https://www.instagram.com">Instagram</a>
+            </p>
+            <p>Coyright</p>
+        </footer>
+    </body>
+</html>
