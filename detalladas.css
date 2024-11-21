@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: red; 
+    text-align: center; 
+    padding: 10px 0; 
+}
+
+header img {
+    height: 120px;
+    margin-bottom: 10px; 
+}
+
+nav ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    padding: 0; 
+    margin: 0; 
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+nav ul a:hover {
+    background-color: #ffffff; 
+    color: red; 
+    transition: 0.3s; 
+}
+
+main {
+    padding: 20px;
+}
+
+main h4 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+.figure2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.figure2 article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.figure2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.figure2 p {
+    color: #555;
+    font-size: 16px;
+}
+
+.especificaciones {
+    font-weight: bold;
+    color: #666;
+    font-size: 14px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    clear: both;
+    padding: 20px;
+}
+
+
+.boton-con-imagen {
+    background-image: url('imagenes de Series/Arcane_League_of_Legends_Serie_de_TV-266443454-large.jpg');
+    background-size: cover; 
+    background-position: center;
+    color: orangered; 
+    border: none;
+    padding: 50px 70px;
+    font-size: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.boton-con-imagen:hover {
+    opacity: 0.8; 
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 15px;
+}
+
+.redes-sociales a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.redes-sociales a:hover {
+    color: #ff6600;
+}
+
+.direccion {
+    text-align: center;
+}
+
+.copyright {
+    text-align: right;
+}

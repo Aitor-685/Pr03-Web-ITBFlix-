@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: red; 
+    text-align: center; 
+    padding: 10px 0; 
+}
+
+header img {
+    height: 120px;
+    margin-bottom: 10px; 
+}
+
+nav ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    padding: 0; 
+    margin: 0; 
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+nav ul a:hover {
+    background-color: #ffffff; 
+    color: red; 
+    transition: 0.3s; 
+}
+
+main {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.titulo-listado {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titulo-listado h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+.titulo-listado p {
+    font-size: 18px;
+    color: #666;
+}
+
+.listado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.item h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 15px 0 5px;
+}
+
+.item p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.detalle-link {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.detalle-link:hover {
+    color: #ff6600;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    clear: both;
+    padding: 20px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 15px;
+}
+
+.redes-sociales a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.redes-sociales a:hover {
+    color: #ff6600;
+}
+
+.direccion {
+    text-align: center;
+}
+
+.copyright {
+    text-align: right;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    clear: both;
+    padding: 20px;
+}
+
+
+.boton-con-imagen {
+    background-image: url('imagenes de Series/Arcane_League_of_Legends_Serie_de_TV-266443454-large.jpg');
+    background-size: cover; 
+    background-position: center;
+    color: orangered; 
+    border: none;
+    padding: 50px 70px;
+    font-size: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.boton-con-imagen:hover {
+    opacity: 0.8; 
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 15px;
+}
+
+.redes-sociales a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.redes-sociales a:hover {
+    color: #ff6600;
+}
+
+.direccion {
+    text-align: center;
+}
+
+.copyright {
+    text-align: right;
+}

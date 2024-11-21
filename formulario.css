@@ -1,0 +1,185 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: red; 
+    text-align: center; 
+    padding: 10px 0; 
+}
+
+header img {
+    height: 120px;
+    margin-bottom: 10px; 
+}
+
+nav ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    padding: 0; 
+    margin: 0; 
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+nav ul a:hover {
+    background-color: #ffffff; 
+    color: red; 
+    transition: 0.3s; 
+}
+
+/* Estilos del formulario */
+main {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-registro {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.form-registro label {
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+}
+
+.form-registro input,
+.form-registro select,
+.form-registro button {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.form-registro input:focus,
+.form-registro select:focus {
+    border-color: #333;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.3);
+}
+
+.form-registro input[type="checkbox"] {
+    width: auto;
+}
+
+.form-registro label[for="terminos"] {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+}
+
+.terminos a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.terminos a:hover {
+    text-decoration: underline;
+}
+
+.form-registro button {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+}
+
+.form-registro button:hover {
+    background-color: #0056b3;
+}
+
+.form-registro input::placeholder {
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* Botones en el footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    clear: both;
+    padding: 20px;
+}
+
+
+.boton-con-imagen {
+    background-image: url('imagenes de Series/Arcane_League_of_Legends_Serie_de_TV-266443454-large.jpg');
+    background-size: cover; 
+    background-position: center;
+    color: orangered; 
+    border: none;
+    padding: 50px 70px;
+    font-size: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.boton-con-imagen:hover {
+    opacity: 0.8; 
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 15px;
+}
+
+.redes-sociales a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.redes-sociales a:hover {
+    color: #ff6600;
+}
+
+.direccion {
+    text-align: center;
+}
+
+.copyright {
+    text-align: right;
+}

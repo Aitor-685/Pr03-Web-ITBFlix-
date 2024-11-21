@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Registro</title>
+        <link rel="stylesheet" href="formulario.css">
+    </head>
+    <body>
+        <header>
+            <img src="logotipo-de-vector-netflix-en-fondo-rojo-color-vectorial-del-diseño-fácil-imprimir-películas-y-series-183282197.webp" alt="Logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">NETFLIX</a></li>
+                    <li><a href="listado_peliculas.html">PELICULAS</a></li>
+                    <li><a href="peliculas_detalladas.html">PELICULAS DETALLADAS</a></li>
+                    <li><a href="pagina4.html">LO MÁS VISTO</a></li>
+                    <li><a href="formulario.html">DATE DE ALTA</a></li>
+                    <li><a href="pagina6.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Formulario de Registro</h2>
+            <form id="registroForm" class="form-registro">
+                <!-- Nombre completo -->
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
+        
+                <!-- Correo electrónico -->
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="Ej: ejemplo@correo.com" required>
+        
+                <!-- Contraseña -->
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" id="contraseña" name="contraseña" placeholder="Mínimo 8 caracteres" required>
+        
+                <!-- Confirmar contraseña -->
+                <label for="confirmar-contraseña">Confirmar Contraseña:</label>
+                <input type="password" id="confirmar-contraseña" name="confirmar-contraseña" placeholder="Repita la contraseña" required>
+        
+                <!-- Fecha de nacimiento -->
+                <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+        
+                <!-- Género -->
+                <label for="genero">Género:</label>
+                <select id="genero" name="genero">
+                    <option value="" disabled selected>Seleccione su género</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+        
+                <!-- País -->
+                <label for="pais">País de Residencia:</label>
+                <select id="pais" name="pais" required>
+                    <option value="" disabled selected>Seleccione su país</option>
+                    <option value="españa">España</option>
+                    <option value="mexico">México</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="chile">Chile</option>
+                    <option value="peru">Perú</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="otro">Otro</option>
+                </select>
+        
+                <!-- Boletín de noticias -->
+                <label>
+                    <input type="checkbox" name="boletin"> Deseo recibir noticias y actualizaciones
+                </label>
+        
+                <!-- Términos y condiciones -->
+                <label class="terminos">
+                    <input type="checkbox" name="terminos" required> Acepto los <a href="#">términos y condiciones</a>
+                </label>
+        
+                <!-- Botón de enviar -->
+                <button type="submit">Registrarse</button>
+            </form>
+        </main>        
+
+        <footer>
+            <div class="footer-buttons">
+                <p>LO MÁS VISTO</p>
+                <button class="boton-con-imagen">1</button>
+                <button class="boton-con-imagen">2</button>
+                <button class="boton-con-imagen">3</button>
+                <button class="boton-con-imagen">4</button>
+                <button class="boton-con-imagen">5</button>
+                <button class="boton-con-imagen">6</button>
+                <button class="boton-con-imagen">7</button>
+                <button class="boton-con-imagen">8</button>
+                <button class="boton-con-imagen">9</button>
+            </div>
+
+            <div class="footer-info">
+                <div class="redes-sociales">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                </div>
+                <div class="direccion">
+                    <p>Calle Ficticia 123</p>
+                    <p>Código Postal: 12345</p>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2024 Mi Sitio Web</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
